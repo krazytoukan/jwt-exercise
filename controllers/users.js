@@ -53,7 +53,7 @@ module.exports = {
 				return res.json({message: "Error", payload: null, error: "Invalid credentials."})
 			}
 			const token = signToken(user)
-			res.json({message: "Success", payload: token})
+			res.json({message: "SUCCESS", payload: token})
 		})
 	}
 }
